@@ -460,3 +460,20 @@ p,input,label,span,a{
     padding: 10px;
 }
 
+/* responsive website */
+
+/* if the screen is 0-768px, it apply all these css  */
+
+@media screen and (max-width: 768px){
+    .nav ul{
+        display: none;
+    }
+    .wrapper{
+       min-width: 0; 
+    }
+    .ads-box{
+        float: none;
+        width: 100%;
+    }
+}
+
